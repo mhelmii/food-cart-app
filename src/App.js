@@ -19,7 +19,7 @@ function App() {
   return (
     <CartProvider>
       {isCartShown && <Cart onHideCart={hideCartHandler} />}
-      <Header title="Awesome Meals" onShowCart={showCartHandler} />
+      <Header title="Holmes Meals" onShowCart={showCartHandler} />
       <main>
         <Meals />
       </main>
